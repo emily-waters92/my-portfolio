@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      My Portfolio
+    </title>
+    <link rel="stylesheet" href="https://unpkg.com/@tailwindcss/typography@^0.4.0/dist/typography.css" />
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2.2/dist/tailwind.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="py-6 bg-white shadow">
+      <div class="container mx-auto px-4 flex items-center justify-between">
+        <h1 class="text-5xl font-bold"><a href="/" class="text-gray-800 hover:text-blue-500">My Portfolio</a></h1>
+        <nav class="ml-8">
+          <ul class="flex space-x-8">
+            <li><a href="about.html" class="text-gray-800 hover:text-blue-500">About</a></li>
+            <li><a href="skills.html" class="text-gray-800 hover:text-blue-500">Skills</a></li>
+            <li><a href="projects.html" class="text-gray-800 hover:text-blue-500">Projects</a></li>
+            <li><a href="contact.html" class="text-gray-800 hover:text-blue-500">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </body>
+    <!-- Skills Section -->
+<section id="skills" class="bg-white py-10">
+  <div class="container mx-auto">
+    <h1 class="text-3xl font-bold text-center mb-10">Skills</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="bg-gray-200 rounded-lg shadow-lg p-5">
+        <h2 class="text-xl font-bold mb-2">Front-end Development</h2>
+        <p class="mb-4">HTML, CSS, JavaScript, React.</p>
+      </div>
+      <div class="bg-gray-200 rounded-lg shadow-lg p-5">
+        <h2 class="text-xl font-bold mb-2">Back-end Development</h2>
+        <p class="mb-4">Node.js, Express, Knex, Redux, SQLite</p>
+      </div>
+      <div class="bg-gray-200 rounded-lg shadow-lg p-5">
+        <h2 class="text-xl font-bold mb-2">Other Skills</h2>
+        <p class="mb-4">Git, Agile Development, Scrum, Project Management.</p>
+      </div>
+    </div>
+  </div>
+</section>

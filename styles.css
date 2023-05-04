@@ -1,0 +1,28 @@
+.title-link {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+.title-link:hover {
+  color: #d1d5db;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  margin-left: auto;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
